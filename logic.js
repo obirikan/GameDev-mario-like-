@@ -68,14 +68,7 @@ class Shoot{
     }
     update(){ 
         this.draw()    
-         this.y += this.velocity.y
-        // this.newpo.a= this.position.x += this.velocity.x
-      
-        if(this.velocity.y +this.radius<=canvas.height){
-            this.velocity.y =gravity
-        }else{
-            this.velocity.y=0
-        }
+        
     }
 }
 const sho=new Shoot
