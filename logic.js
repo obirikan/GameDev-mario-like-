@@ -1,32 +1,32 @@
-import move from './imgs/player'
 const canvas=document.getElementById('context')
 const c=canvas.getContext('2d')
 canvas.width=innerWidth
 canvas.height=innerHeight
-console.log(move)
 
 const gravity=1.5
 
 class Player{
     constructor(){
+        //the postion of the player on the plane[x,y]
         this.position={
-            x:100,
-            y:100
+            x:200,
+            y:200
         }
-
+        //the speed of the player
         this.velocity={
             x:0,
             y:0
         }
-        this.width=30
-        this.height=30
+        //the size of the player
+        this.width=60
+        this.height=60
         // this.image=createImage(p)
     }
+    //this draws out the player
     draw(){
         c.fillStyle='red'
         c.fillRect(this.position.x,this.position.y,this.width,this.height)
         c.fill()
-        // c.drawImage(this.image,this.position.x,this.position.y)
     }
     update(){ 
         this.draw()    
@@ -100,19 +100,9 @@ function animate(){
     requestAnimationFrame(animate)
     c.clearRect(0,0,canvas.width,canvas.height)
     player.update() 
-    // bullets.forEach(s=>{
-    //     s.update()
-        
-    // })
+
     power.forEach(s=>{
         s.ps()  
-        s.ps()  
-        s.ps()  
-        s.ps()
-        s.ps()
-        s.ps()
-        s.ps()
-        s.ps()
     })
 
 }
