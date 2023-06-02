@@ -1,9 +1,7 @@
-// import move from './imgs/player'
 const canvas=document.getElementById('context')
 const c=canvas.getContext('2d')
 canvas.width=innerWidth
 canvas.height=innerHeight
-// console.log(move)
 
 const gravity=1.5
 
