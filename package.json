@@ -1,0 +1,19 @@
+{
+  "name": "logic.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logic.js",
+  "scripts": {
+    "start": "node logic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obirikan/GameDev-mario-like-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obirikan/GameDev-mario-like-/issues"
+  },
+  "homepage": "https://github.com/obirikan/GameDev-mario-like-#readme"
+}
