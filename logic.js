@@ -102,7 +102,11 @@ function animate(){
     player.update() 
 
     power.forEach(s=>{
+        s.ps()
         s.ps()  
+        s.ps()
+        s.ps()  
+        
     })
 
 }
